@@ -1,0 +1,18 @@
+
+.inventory_logo {
+    font-family: 'Gugi', cursive;
+}
+
+.inventory_header {
+    text-align:center;
+    margin: 2rem 0;
+}
+
+.inventory_footer {
+    text-align:center;
+    margin-top: 2rem
+}
+
+.inventory_footer_button {
+    font-size: .6rem
+}
