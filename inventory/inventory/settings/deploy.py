@@ -26,6 +26,8 @@ SECRET_KEY = read_secret('DJANGO_SECRET_KEY')
 
 ALLOWED_HOSTS = ['finven.shop', 'www.finven.shop', '54.180.80.48']
 
+CSRF_TRUSTED_ORIGINS = ['finven.shop', 'www.finven.shop', '54.180.80.48']
+
 
 # Database
 # https://docs.djangoproject.com/en/4.0/ref/settings/#databases
