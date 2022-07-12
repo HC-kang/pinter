@@ -3,6 +3,7 @@
         "accountapp",
         "articleapp",
         "commentapp",
+        "likeapp",
         "profileapp",
         "projectapp",
         "subscribeapp"

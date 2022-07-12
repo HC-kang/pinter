@@ -15,6 +15,11 @@ from django.urls import reverse_lazy
 import environ
 import os
 
+from django.contrib.messages import constants as messages
+MESSAGE_TAGS = {
+    messages.ERROR: 'danger',
+}
+
 # Set the project base directory
 BASE_DIR = Path(__file__).resolve().parent.parent.parent
 
@@ -35,6 +40,7 @@ INSTALLED_APPS = [
     'commentapp',
     'projectapp',
     'subscribeapp',
+    'likeapp',
 ]
 
 MIDDLEWARE = [

@@ -24,7 +24,7 @@ SECRET_KEY = read_secret('DJANGO_SECRET_KEY')
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/4.0/howto/deployment/checklist/
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['finven.shop', 'www.finven.shop', '54.180.80.48']
 
 
 # Database
